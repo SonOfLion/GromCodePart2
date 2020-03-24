@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <title>Document</title>
+    <style>
+        header {
+            height: 40px;
+            background-color: darkturquoise;
+            position: fixed;
+            width: 100%;
+        }
+        
+        nav {
+            height: 40px;
+        }
+        
+        ul {
+            display: inline-block;
+        }
+        
+        li {
+            display: inline-block;
+            margin-left: 16px;
+            color: white;
+        }
+        
+        main {
+            height: 5000px;
+            background-color: beige;
+        }
+        
+        .face {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            position: relative;
+            top: 500px;
+            left: 550px;
+            right: 550px;
+        }
+        
+        .ears1,
+        .ears2 {
+            width: 40px;
+            height: 60px;
+            background-color: brown;
+        }
+        
+        .ears1 {
+            position: relative;
+            left: -40px;
+            top: -60px;
+        }
+        
+        .ears2 {
+            position: relative;
+            right: -200px;
+            top: -120px;
+        }
+        
+        .eyes1,
+        .eyes2 {
+            background-color: grey;
+            border-radius: 30px;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: 80px;
+            left: 40px;
+            right: 40px;
+        }
+        
+        .eyes1 {
+            position: absolute;
+            top: 80px;
+            left: 40px;
+            right: 40px;
+        }
+        
+        .eyes2 {
+            position: relative;
+            top: -40px;
+            left: 125px;
+        }
+    </style>
+
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Contacts</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="face">
+                <div class="ears1"></div>
+                <div class="ears2"></div>
+                <div class="eyes1"></div>
+                <div class="eyes2"></div>
+            </div>
+        </main>
+    </body>
+
+
+
+</html>
