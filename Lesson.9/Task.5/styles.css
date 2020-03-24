@@ -1,12 +1,8 @@
 header {
     background-color: darkturquoise;
-    height: 40px;
     position: fixed;
     width: 100%;
-}
-
-nav {
-    height: 40px;
+    line-height: 40px;
 }
 
 .nav-item {
@@ -27,6 +23,7 @@ main {
     margin: auto;
     position: relative;
     top: 200px;
+    z-index: 2;
 }
 
 .eye {
@@ -45,7 +42,7 @@ main {
 .eye_left {
     position: absolute;
     top: 80px;
-    left: 120px;
+    right: 40px;
 }
 
 .ear {
