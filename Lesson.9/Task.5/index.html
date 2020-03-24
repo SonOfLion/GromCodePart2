@@ -8,24 +8,23 @@
     <title>Document</title>
     <style>
         header {
-            height: 40px;
             background-color: darkturquoise;
-            position: fixed;
+            height: 40px;
+            margin-bottom: 100px;
             width: 100%;
+            position: fixed;
         }
         
         nav {
-            height: 40px;
-        }
-        
-        ul {
-            display: inline-block;
+            height: 10px;
         }
         
         li {
-            display: inline-block;
-            margin-left: 16px;
+            display: inline;
             color: white;
+            margin-left: 16px;
+            position: relative;
+            top: -5px;
         }
         
         main {
@@ -38,32 +37,11 @@
             height: 200px;
             background-color: aquamarine;
             position: relative;
-            top: 500px;
-            left: 550px;
-            right: 550px;
+            top: 200px;
+            left: 180px;
         }
         
-        .ears1,
-        .ears2 {
-            width: 40px;
-            height: 60px;
-            background-color: brown;
-        }
-        
-        .ears1 {
-            position: relative;
-            left: -40px;
-            top: -60px;
-        }
-        
-        .ears2 {
-            position: relative;
-            right: -200px;
-            top: -120px;
-        }
-        
-        .eyes1,
-        .eyes2 {
+        .eyes1 {
             background-color: grey;
             border-radius: 30px;
             width: 30px;
@@ -71,20 +49,34 @@
             position: relative;
             top: 80px;
             left: 40px;
-            right: 40px;
-        }
-        
-        .eyes1 {
-            position: absolute;
-            top: 80px;
-            left: 40px;
-            right: 40px;
         }
         
         .eyes2 {
+            background-color: grey;
+            border-radius: 30px;
+            width: 30px;
+            height: 30px;
             position: relative;
-            top: -40px;
-            left: 125px;
+            top: 50px;
+            left: 120px;
+        }
+        
+        .ears1 {
+            width: 40px;
+            height: 60px;
+            background-color: brown;
+            position: relative;
+            bottom: 120px;
+            right: 40px;
+        }
+        
+        .ears2 {
+            width: 40px;
+            height: 60px;
+            background-color: brown;
+            position: relative;
+            bottom: 180px;
+            left: 200px;
         }
     </style>
 
@@ -101,10 +93,10 @@
         </header>
         <main>
             <div class="face">
-                <div class="ears1"></div>
-                <div class="ears2"></div>
                 <div class="eyes1"></div>
                 <div class="eyes2"></div>
+                <div class="ears1"></div>
+                <div class="ears2"></div>
             </div>
         </main>
     </body>
