@@ -2,12 +2,12 @@
         background-color: darkturquoise;
         position: fixed;
         width: 100%;
-        line-height: 40px;
         z-index: 1;
+        line-height: 40px;
     }
     
     .nav-item {
-        display: inline;
+        display: inline-block;
         margin-left: 16px;
         color: white;
         line-height: 40px;
