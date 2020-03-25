@@ -1,17 +1,17 @@
-header {
+.header {
     background-color: darkturquoise;
     position: fixed;
     width: 100%;
-    line-height: 40px;
 }
 
 .nav-item {
     display: inline-block;
     margin-left: 16px;
     color: white;
+    line-height: 10px;
 }
 
-main {
+.content {
     background-color: beige;
     height: 5000px;
 }
@@ -23,7 +23,6 @@ main {
     margin: auto;
     position: relative;
     top: 200px;
-    z-index: 2;
 }
 
 .eye {
