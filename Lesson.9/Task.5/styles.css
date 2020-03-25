@@ -10,7 +10,7 @@
         display: inline-block;
         margin-left: 16px;
         color: white;
-        line-height: 40px;
+        height: 40px;
     }
     
     .content {
