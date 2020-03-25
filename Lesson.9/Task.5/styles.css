@@ -6,10 +6,15 @@
         line-height: 40px;
     }
     
+    nav {
+        height: 40px;
+    }
+    
     .nav-item {
         display: inline-block;
         margin-left: 16px;
         color: white;
+        height: 40px;
         height: 40px;
     }
     
