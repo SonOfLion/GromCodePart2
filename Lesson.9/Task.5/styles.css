@@ -5,15 +5,10 @@
         z-index: 1;
     }
     
-    nav {
-        line-height: 40px;
-    }
-    
     li {
         display: inline-block;
         margin-left: 16px;
         color: white;
-        height: 40px;
     }
     
     .content {
