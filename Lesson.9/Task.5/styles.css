@@ -3,12 +3,18 @@
         position: fixed;
         width: 100%;
         z-index: 1;
+        height: 40px;
     }
     
-    li {
+    .nav-list {
+        margin: 10px;
+    }
+    
+    .nav-item {
         display: inline-block;
         margin-left: 16px;
         color: white;
+        height: 40px;
     }
     
     .content {
