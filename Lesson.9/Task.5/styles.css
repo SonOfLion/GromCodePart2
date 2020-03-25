@@ -11,10 +11,11 @@
 }
 
 .nav-item {
-    display: inline-block;
-    margin-left: 16px;
+    display: inline;
     color: white;
     line-height: 40px;
+    float: left;
+    margin-left: 16px;
 }
 
 .content {
@@ -23,12 +24,12 @@
 }
 
 .head {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-    margin: auto;
-    position: relative;
-    top: 200px;
 }
 
 .eye {
