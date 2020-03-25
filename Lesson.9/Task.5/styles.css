@@ -15,6 +15,7 @@
     line-height: 40px;
     float: left;
     margin-left: 16px;
+    list-style-type: none;
 }
 
 .content {
