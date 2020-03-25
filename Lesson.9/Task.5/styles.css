@@ -7,14 +7,14 @@
 }
 
 .nav-list {
-    line-height: 40px;
-    margin: 0px;
+    margin: 0;
 }
 
 .nav-item {
-    display: inline;
+    display: inline-block;
     margin-left: 16px;
     color: white;
+    line-height: 40px;
 }
 
 .content {
