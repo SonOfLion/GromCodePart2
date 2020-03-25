@@ -1,63 +1,64 @@
-.header {
-    background-color: darkturquoise;
-    position: fixed;
-    width: 100%;
-}
-
-.nav-item {
-    display: inline-block;
-    margin-left: 16px;
-    color: white;
-    line-height: 40px;
-}
-
-.content {
-    background-color: beige;
-    height: 5000px;
-}
-
-.head {
-    width: 200px;
-    height: 200px;
-    background-color: aquamarine;
-    margin: auto;
-    position: relative;
-    top: 200px;
-}
-
-.eye {
-    background-color: grey;
-    border-radius: 30px;
-    width: 30px;
-    height: 30px;
-}
-
-.eye_right {
-    position: absolute;
-    top: 80px;
-    left: 40px;
-}
-
-.eye_left {
-    position: absolute;
-    top: 80px;
-    right: 40px;
-}
-
-.ear {
-    width: 40px;
-    height: 60px;
-    background-color: brown;
-}
-
-.ear_left {
-    position: relative;
-    bottom: 120px;
-    right: 40px;
-}
-
-.ear_right {
-    position: relative;
-    bottom: 60px;
-    left: 200px;
-}
+    .header {
+        background-color: darkturquoise;
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        z-index: 1;
+    }
+    
+    .nav-item {
+        display: inline;
+        margin-left: 16px;
+        color: white;
+    }
+    
+    .content {
+        background-color: beige;
+        height: 5000px;
+    }
+    
+    .head {
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+        margin: auto;
+        position: relative;
+        top: 200px;
+    }
+    
+    .eye {
+        background-color: grey;
+        border-radius: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .eye_right {
+        position: absolute;
+        top: 80px;
+        left: 40px;
+    }
+    
+    .eye_left {
+        position: absolute;
+        top: 80px;
+        right: 40px;
+    }
+    
+    .ear {
+        width: 40px;
+        height: 60px;
+        background-color: brown;
+    }
+    
+    .ear_left {
+        position: relative;
+        bottom: 120px;
+        right: 40px;
+    }
+    
+    .ear_right {
+        position: relative;
+        bottom: 60px;
+        left: 200px;
+    }
