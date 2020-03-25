@@ -3,14 +3,18 @@
     position: fixed;
     width: 100%;
     z-index: 1;
+    height: 40px;
+}
+
+.nav-list {
     line-height: 40px;
+    margin: 0px;
 }
 
 .nav-item {
-    display: inline-block;
+    display: inline;
     margin-left: 16px;
     color: white;
-    height: 40px;
 }
 
 .content {
