@@ -1,0 +1,31 @@
+.blocks {
+    height: 300px;
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_red {
+    background-color: red;
+}
+
+.block_green {
+    background-color: green;
+}
+
+.block_blue {
+    background-color: blue;
+}
+
+.block_yellow {
+    background-color: yellow;
+}
+
+.block_black {
+    background-color: black;
+}
