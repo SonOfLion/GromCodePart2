@@ -1,0 +1,33 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        min-width: 300px;
+        display: flex;
+        flex-shrink: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .article {
+        background-color: bisque;
+        margin: 8px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    .articles-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+    }
