@@ -1,11 +1,14 @@
     * {
-        box-sizing: border-box;
+        box-sizing: content-box;
+    }
+    
+    * p {
+        margin: 0px;
     }
     
     body {
         min-width: 300px;
         display: flex;
-        flex-shrink: 0;
         flex-direction: column;
     }
     
@@ -29,5 +32,4 @@
     .articles-list {
         display: flex;
         flex-wrap: wrap;
-        flex-shrink: 0;
     }
