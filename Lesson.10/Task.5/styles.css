@@ -16,7 +16,9 @@
     .article {
         display: flex;
         flex-direction: column;
-        flex: 2;
+        align-items: flex-start;
+        align-items: baseline;
+        flex: 1;
         background-color: bisque;
         margin: 8px;
         padding: 16px;
