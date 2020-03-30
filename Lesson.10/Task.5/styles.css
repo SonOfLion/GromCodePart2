@@ -6,6 +6,10 @@
         margin: 0px;
     }
     
+    body {
+        height: 100vh;
+    }
+    
     header {
         display: flex;
         flex-direction: row;
@@ -16,7 +20,7 @@
     .article {
         display: flex;
         flex-direction: column;
-        flex: 1;
+        flex: 2;
         background-color: bisque;
         margin: 8px;
         padding: 16px;
