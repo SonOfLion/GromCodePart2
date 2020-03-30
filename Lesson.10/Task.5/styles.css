@@ -7,7 +7,7 @@
     }
     
     .article {
-        flex: 1 0;
+        flex: 1;
         background-color: bisque;
         margin: 8px;
         padding: 16px;
