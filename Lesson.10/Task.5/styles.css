@@ -16,6 +16,7 @@
     .article {
         display: flex;
         flex-direction: column;
+        flex: 1;
         background-color: bisque;
         margin: 8px;
         padding: 16px;
@@ -25,4 +26,5 @@
     .articles-list {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
