@@ -2,15 +2,8 @@
         box-sizing: border-box;
     }
     
-    body {
-        height: 100vh;
-    }
-    
     header {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
     }
     
     .article {
