@@ -6,6 +6,10 @@
         height: 100vh;
     }
     
+    p {
+        margin: 0px;
+    }
+    
     header {
         display: flex;
         flex-direction: row;
@@ -17,7 +21,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        align-items: baseline;
         flex: 1;
         background-color: bisque;
         margin: 8px;
