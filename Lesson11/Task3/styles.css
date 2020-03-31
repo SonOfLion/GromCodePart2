@@ -31,13 +31,13 @@
     padding: 16px;
 }
 
-.dropdown:hover .menu-list {
-    display: block;
+.dropdown:hover .menu-button {
     opacity: 1;
     color: white;
 }
 
-.menu-item:hover {
+.dropdown:hover .menu-list {
+    display: block;
     background-color: ghostwhite;
     color: black;
 }
