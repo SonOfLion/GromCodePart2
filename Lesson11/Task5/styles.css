@@ -3,15 +3,14 @@
 }
 
 .gallery {
-    margin: 8px;
     cursor: all-scroll;
 }
 
 .thumb {
-    overflow-x: scroll;
+    margin: 8px;
 }
 
 div {
     display: flex;
-    flex-wrap: wrap;
+    flex: 1;
 }
