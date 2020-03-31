@@ -10,6 +10,7 @@
     padding: 16px;
     opacity: 0.8;
     cursor: pointer;
+    color: white;
 }
 
 .menu-list {
@@ -33,7 +34,6 @@
 
 .dropdown:hover {
     opacity: 1;
-    color: white;
     font-size: 16px;
 }
 
