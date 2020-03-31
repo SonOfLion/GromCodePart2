@@ -6,7 +6,7 @@ body {
     display: flex;
 }
 
-div {
+.articles * {
     width: 150px;
     height: 100px;
     background-color: beige;
@@ -15,18 +15,22 @@ div {
 
 .visible-text {
     overflow: visible;
+    float: left;
 }
 
 .cropped {
     overflow: hidden;
+    float: left;
 }
 
 .both-scrolls {
     overflow: scroll;
+    float: left;
 }
 
 .vertical-scroll {
     overflow-y: scroll;
+    float: left;
 }
 
 .both-scrolls,
