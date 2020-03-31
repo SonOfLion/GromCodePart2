@@ -4,6 +4,7 @@
 
 .gallery {
     cursor: all-scroll;
+    overflow-x: scroll;
 }
 
 .thumb {
