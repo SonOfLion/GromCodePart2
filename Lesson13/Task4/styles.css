@@ -7,6 +7,7 @@
     }
     
     .image {
+        display: block;
         height: 200px;
         width: 200px;
     }
@@ -18,13 +19,13 @@
     }
     
     .image:nth-child(2) {
-        background-size: 12rem;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     
     .image:nth-child(3) {
-        background-size: 11em;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
