@@ -13,19 +13,19 @@
     }
     
     .image:nth-child(1) {
-        background-size: 100%;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
     
     .image:nth-child(2) {
-        background-size: 100%;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
     
     .image:nth-child(3) {
-        background-size: 100%;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
