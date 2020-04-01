@@ -18,13 +18,13 @@
     }
     
     .image:nth-child(2) {
-        background-size: 13rem;
+        background-size: 12rem;
         background-position: center;
         background-repeat: no-repeat;
     }
     
     .image:nth-child(3) {
-        background-size: 10em;
+        background-size: 11em;
         background-position: center;
         background-repeat: no-repeat;
     }
