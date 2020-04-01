@@ -6,7 +6,7 @@ html {
 
 h1 {
     word-spacing: 20px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
 }
 
