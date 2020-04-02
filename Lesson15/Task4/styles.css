@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .image-container {
@@ -13,6 +13,7 @@
 }
 
 .image-button {
+    display: block;
     position: absolute;
     top: calc(50% - 25px);
     left: calc(50% - 100px);
