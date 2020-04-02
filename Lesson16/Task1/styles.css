@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    margin: 16px;
+}
+
+.choose-gender {
+    display: flex;
+    flex-direction: column;
+}
