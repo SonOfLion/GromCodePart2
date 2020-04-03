@@ -16,11 +16,12 @@ input[type="checkbox"] {
 }
 
 .checkbox {
-    display: inline-block;
+    display: block;
     position: relative;
     padding-left: 35px;
     font-size: 24px;
-    margin: 14px;
+    line-height: 24px;
+    margin: 16px;
 }
 
 .checkbox input:checked+.checkmark {
