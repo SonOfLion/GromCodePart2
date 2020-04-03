@@ -7,17 +7,16 @@ input[type="checkbox"] {
 }
 
 .checkmark {
-    display: block;
     width: 25px;
     height: 25px;
     background-color: #d3d3d3;
     position: absolute;
+    display: inline-block;
     top: 0;
     left: 0;
 }
 
 .checkbox {
-    display: inline-block;
     position: relative;
     padding-left: 35px;
     font-size: 24px;
