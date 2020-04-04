@@ -26,12 +26,9 @@ body {
     text-transform: uppercase;
 }
 
-.form-label {
-    margin: 4px;
-}
-
 .form-input {
-    margin: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
     width: 100%;
     height: 32px;
     border-radius: 4px;
