@@ -1,11 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-form {
-    margin: 32px;
-}
-
 input {
     margin: 8px;
 }
