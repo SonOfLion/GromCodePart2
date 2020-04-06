@@ -15,6 +15,11 @@
             height: 50px;
         }
         
+        tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
         tr:nth-of-type(2) td:nth-of-type(even) {
             background-color: white;
         }
