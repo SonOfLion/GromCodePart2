@@ -1,7 +1,7 @@
-input {
-    margin: 8px;
+form {
+    margin-left: 32px;
 }
 
-.favouriteColor {
-    color: aqua;
+input {
+    margin: 8px;
 }
