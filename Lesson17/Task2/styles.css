@@ -9,6 +9,7 @@ table {
 table,
 td,
 th {
+    height: 40px;
     margin: 16px;
     border: 1px solid black;
     border-collapse: collapse;
@@ -16,7 +17,6 @@ th {
 
 td,
 th {
-    line-height: 40px;
     padding: 4px;
     text-align: right;
 }
