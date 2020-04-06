@@ -2,16 +2,20 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     background-color: bisque;
-    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    font-family: monospace;
     font-size: 16px;
 }
 
-.page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+form {
+    width: 300px;
+    background-color: aqua;
+    padding: 16px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    margin: auto;
 }
 
 .login-form {
@@ -48,6 +52,6 @@ body {
     border-radius: 4px;
 }
 
-.form-input:required:valid {
+.form-input:required:invalid {
     border: 3px #ff0000;
 }
