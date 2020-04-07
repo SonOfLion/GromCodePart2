@@ -21,7 +21,7 @@
     color: darkcyan;
 }
 
-.icon_1 {
+.bird {
     width: 32px;
     height: 32px;
     fill: white;
@@ -31,10 +31,5 @@
 .fas fa-id-card {
     width: 32px;
     height: 32px;
-    fill: white;
     vertical-align: middle;
-}
-
-.icon_1:hover {
-    fill: green;
 }
