@@ -6,6 +6,7 @@ body {
 
 .fa-battery-full {
     font-size: 16px;
+    margin-top: 0;
 }
 
 .fa-battery-three-quarters {
