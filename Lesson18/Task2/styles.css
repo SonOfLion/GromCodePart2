@@ -9,6 +9,7 @@
     font-weight: 700;
     cursor: pointer;
     line-height: 50px;
+    text-transform: uppercase;
 }
 
 .button:hover {
