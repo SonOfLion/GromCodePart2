@@ -30,3 +30,23 @@ body {
 .fa-battery-empty::before:nth-child(2) {
     visibility: hidden;
 }
+
+div.fa-battery-empty::before {
+    display: none;
+}
+
+div.fa-battery-quarter::before {
+    display: none;
+}
+
+div.fa-battery-half::before {
+    display: none;
+}
+
+div.fa-battery-three-quarters::before {
+    display: none;
+}
+
+div.fa-battery-full::before {
+    display: none;
+}
