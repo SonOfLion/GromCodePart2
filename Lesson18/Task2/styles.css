@@ -27,3 +27,7 @@
     fill: white;
     vertical-align: middle;
 }
+
+.bird:hover {
+    fill: green;
+}
