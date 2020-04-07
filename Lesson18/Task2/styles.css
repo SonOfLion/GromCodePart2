@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .button {
     margin: 64px;
     width: 200px;
@@ -10,22 +14,25 @@
     cursor: pointer;
     line-height: 50px;
     text-transform: uppercase;
+    border: none;
 }
 
 .button:hover {
     color: darkcyan;
 }
 
-.button:focus,
-button:active {
-    outline: none;
-}
-
 .icon_1 {
     width: 32px;
     height: 32px;
-    vertical-align: middle;
     fill: white;
+    vertical-align: middle;
+}
+
+.fas fa-id-card {
+    width: 32px;
+    height: 32px;
+    fill: white;
+    vertical-align: middle;
 }
 
 .icon_1:hover {
