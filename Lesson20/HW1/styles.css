@@ -43,7 +43,7 @@
 
 @keyframes spin {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(1deg);
     }
     50% {
         transform: rotate(90deg);
