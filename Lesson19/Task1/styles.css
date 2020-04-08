@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 16px;
+}
+
+.rect {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+    background-color: coral;
+    transition-property: 0.5, 100%;
+    transition-duration: 2s;
+}
+
+.rect:hover {
+    width: 100%;
+    opacity: 1;
+}
+
+.rect:nth-child(1) {
+    transition-timing-function: linear;
+}
+
+.rect:nth-child(2) {
+    transition-timing-function: ease;
+}
+
+.rect:nth-child(3) {
+    transition-timing-function: ease-in;
+}
+
+.rect:nth-child(4) {
+    transition-timing-function: ease-out;
+}
+
+.rect:nth-child(5) {
+    transition-timing-function: ease-in-out;
+}
