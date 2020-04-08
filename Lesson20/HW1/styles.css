@@ -20,6 +20,7 @@
     border-top: 4px solid black;
     margin-bottom: 8px;
     animation: spin 2s infinite;
+    animation-direction: normal;
 }
 
 .spinner-text {
@@ -27,6 +28,7 @@
     text-transform: uppercase;
     font-size: 16px;
     animation: blinking 2s infinite;
+    animation-direction: normal;
 }
 
 @keyframes blinking {
