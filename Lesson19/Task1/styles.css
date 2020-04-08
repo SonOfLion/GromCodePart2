@@ -7,6 +7,9 @@
 }
 
 .rect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     margin-bottom: 16px;
