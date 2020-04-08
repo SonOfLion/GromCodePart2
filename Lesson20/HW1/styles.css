@@ -19,7 +19,8 @@
     border: 4px solid lightgrey;
     border-top: 4px solid black;
     margin-bottom: 8px;
-    animation: spin 2s infinite ease;
+    animation: spin 2s infinite;
+    animation-timing-function: linear;
 }
 
 .spinner-text {
