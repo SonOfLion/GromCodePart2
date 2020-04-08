@@ -12,10 +12,10 @@
     align-items: center;
     width: 100px;
     height: 100px;
+    opacity: 0.5;
     margin-bottom: 16px;
     background-color: coral;
-    opacity: 0.5;
-    transition-property: 100%;
+    transition-property: width;
     transition-duration: 2s;
 }
 
