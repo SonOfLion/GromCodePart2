@@ -11,7 +11,8 @@
     height: 100px;
     margin-bottom: 16px;
     background-color: coral;
-    transition-property: 0.5, 100%;
+    opacity: 0.5;
+    transition-property: 100%;
     transition-duration: 2s;
 }
 
