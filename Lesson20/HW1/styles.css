@@ -27,7 +27,8 @@
     font-family: monospace;
     text-transform: uppercase;
     font-size: 16px;
-    animation: blinking 2s infinite ease;
+    animation: blinking 2s infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes blinking {
@@ -44,7 +45,7 @@
 
 @keyframes spin {
     0% {
-        transform: rotate(1deg);
+        transform: rotate(0deg);
     }
     50% {
         transform: rotate(90deg);
