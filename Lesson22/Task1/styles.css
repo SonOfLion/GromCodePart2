@@ -16,13 +16,7 @@
     background-color: #8a2be2;
 }
 
-@media screen and (width: 600px) {
-    .square {
-        background-color: #8a2be2;
-    }
-}
-
-@media screen and (width: 550px) {
+@media screen and (max-width: 599px) {
     .square {
         background-color: #ff7f50;
     }
