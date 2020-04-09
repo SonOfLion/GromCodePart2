@@ -14,7 +14,6 @@ body {
 }
 
 .header {
-    height: 10vh;
     display: flex;
     background-image: linear-gradient(60deg, red, orange);
 }
@@ -73,6 +72,7 @@ h1 {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    padding: 0.5em;
 }
 
 .css-units {
