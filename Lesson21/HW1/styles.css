@@ -13,11 +13,8 @@ body {
     flex-direction: column;
 }
 
-main {
-    height: 100vh;
-}
-
 .header {
+    height: 10vh;
     display: flex;
     background-image: linear-gradient(60deg, red, orange);
 }
