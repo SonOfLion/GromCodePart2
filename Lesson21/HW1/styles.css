@@ -14,8 +14,13 @@ body {
 }
 
 .header {
+    height: 10vh;
     display: flex;
     background-image: linear-gradient(60deg, red, orange);
+}
+
+main {
+    height: 85vh;
 }
 
 h1 {
@@ -24,6 +29,7 @@ h1 {
 }
 
 .footer {
+    height: 5vh;
     display: flex;
     justify-content: center;
     background-color: #e5e5e5;
