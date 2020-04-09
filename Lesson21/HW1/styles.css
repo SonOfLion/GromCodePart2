@@ -43,14 +43,17 @@ h1 {
 }
 
 .section {
-    height: 10vh;
     width: 60%;
     padding: 0.5em;
     float: left;
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1.25em;
 }
 
 .units-list {
-    font-size: 1.25em;
     line-height: 1.75em;
 }
 
