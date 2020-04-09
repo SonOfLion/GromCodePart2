@@ -14,13 +14,13 @@ body {
 }
 
 .header {
-    height: 10vh;
+    height: 9vh;
     display: flex;
     background-image: linear-gradient(60deg, red, orange);
 }
 
 main {
-    height: 85vh;
+    height: 86vh;
 }
 
 h1 {
