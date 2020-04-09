@@ -9,14 +9,14 @@ html {
     height: 100%;
 }
 
-main {
-    height: 100%;
-}
-
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+main {
+    flex: 1 0;
 }
 
 .header {
@@ -43,6 +43,7 @@ h1 {
 }
 
 .section {
+    height: 10vh;
     width: 60%;
     padding: 0.5em;
     float: left;
