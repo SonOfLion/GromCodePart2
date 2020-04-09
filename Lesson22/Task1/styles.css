@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    background-color: #8a2be2;
+}
+
+@media screen and (width: 600px) {
+    .square {
+        background-color: #8a2be2;
+    }
+}
+
+@media screen and (width: 550px) {
+    .square {
+        background-color: #ff7f50;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
