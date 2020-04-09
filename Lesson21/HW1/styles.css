@@ -7,12 +7,14 @@ html {
     color: #555;
     font-size: 16px;
     height: 100%;
+    max-width: 1200px;
 }
 
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    max-width: 1200px;
 }
 
 main {
@@ -20,6 +22,7 @@ main {
 }
 
 .header {
+    width: 100vw;
     text-align: center;
     background-image: linear-gradient(60deg, red, orange);
 }
@@ -46,10 +49,6 @@ h1 {
     width: 60%;
     padding: 0.5em;
     float: left;
-    font-size: 1.25em;
-}
-
-p {
     font-size: 1.25em;
 }
 
