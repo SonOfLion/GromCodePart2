@@ -36,23 +36,18 @@ span {
     align-items: center;
     min-height: 200px;
     background-color: #0ff;
+    flex-grow: 1;
 }
 
 @media screen and (min-width:600px) {
-    .triple {
-        flex-grow: 3;
-    }
-}
-
-@media screen and (min-width:900px) {
     .section {
         display: flex;
+        flex-grow: 2;
     }
 }
 
 @media screen and (min-width:1200px) {
     .triple {
         display: flex;
-        flex-grow: 1;
     }
 }
