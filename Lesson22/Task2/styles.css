@@ -14,36 +14,34 @@ span {
     display: flex;
     background-color: #ff7f50;
     min-height: 200px;
+    width: 100%;
     flex-grow: 1;
 }
 
 .products-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 200px;
     background-color: #006400;
+    width: 100%;
     flex-grow: 1;
 }
 
 .news {
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 200px;
     background-color: #0ff;
     flex-grow: 1;
 }
 
 @media screen and (min-width:600px) {
-    .section {
+    .vision {
         display: flex;
         flex-grow: 2;
     }
 }
 
 @media screen and (min-width:1200px) {
-    .triple {
+    .content {
         display: flex;
     }
 }
