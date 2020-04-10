@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    margin: auto;
+    background-color: #faebd7;
+    border-radius: 4px;
+    padding: 8px;
+    text-transform: lowercase;
+}
+
+.navigation {
+    display: flex;
+    background-color: #ff7f50;
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.products-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: #006400;
+    flex-grow: 1;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: #0ff;
+}
+
+@media screen and (min-width:600px) {
+    .triple {
+        flex-grow: 3;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .section {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .triple {
+        display: flex;
+        flex-grow: 1;
+    }
+}
