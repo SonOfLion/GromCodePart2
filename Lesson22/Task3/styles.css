@@ -1,12 +1,8 @@
-* {
-    box-sizing: border-box;
-}
-
-picture {
-    display: flex;
-}
-
-picture:nth-child(1) {
+img {
     margin: auto;
-    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    display: flex;
 }
