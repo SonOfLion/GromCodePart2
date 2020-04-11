@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 3em;
+    padding: 0 1em;
+    background-color: #eeeeee;
+}
