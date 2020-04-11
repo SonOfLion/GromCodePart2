@@ -1,18 +1,8 @@
-img {
-    justify-content: center;
-    max-width: 100%;
-}
-
-div {
+main {
     display: flex;
 }
 
-.left {
-    margin: auto;
-    width: 50%;
-}
-
-.right {
-    width: 50%;
+picture {
+    max-width: 100%;
     margin: auto;
 }
