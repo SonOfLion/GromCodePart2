@@ -1,8 +1,18 @@
 img {
-    margin: auto;
+    justify-content: center;
     max-width: 100%;
 }
 
-body {
+div {
     display: flex;
+}
+
+.left {
+    margin: auto;
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    margin: auto;
 }

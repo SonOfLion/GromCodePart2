@@ -10,12 +10,18 @@
 </head>
 
 <body>
-    <picture class="container">
-        <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg" media="min-width:400px">
-        <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg" alt="woods with river">
-        <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/example-600.jpg" media="min-width:600px">
-        <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" alt="Land and tree">
-    </picture>
+    <div class="left">
+        <picture>
+            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg" media="(min-width:400px)">
+            <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg" alt="woods with river">
+        </picture>
+    </div>
+    <div>
+        <picture class="right">
+            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/example-600.jpg" media="(min-width:600px)">
+            <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" alt="Land and tree">
+        </picture>
+    </div>
 </body>
 
 </html>
