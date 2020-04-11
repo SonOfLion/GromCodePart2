@@ -11,3 +11,7 @@ html {
     padding: 0 1em;
     background-color: #eeeeee;
 }
+
+.fa-bars::before {
+    width: ;
+}
