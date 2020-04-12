@@ -38,4 +38,6 @@ button {
 .nav-list-link {
     text-decoration: none;
     color: white;
+    text-overflow: ellipsis;
+    white-space: pre;
 }
