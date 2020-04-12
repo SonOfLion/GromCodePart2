@@ -14,11 +14,17 @@ html {
 }
 
 button {
+    display: flex;
     font-size: 2em;
     border: none;
     margin: 0;
     padding: 0;
     cursor: pointer;
+}
+
+.fas fa-bars {
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-list {
