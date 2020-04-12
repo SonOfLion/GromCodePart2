@@ -7,11 +7,33 @@ html {
 }
 
 .header {
+    display: flex;
     height: 3em;
     padding: 0 1em;
     background-color: #eeeeee;
 }
 
-.fa-bars::before {
-    width: ;
+button {
+    font-size: 2em;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    width: 20%;
+    padding: 0.5em;
+}
+
+.nav-list-item {
+    background-color: #808080;
+    margin-bottom: 0.5em;
+}
+
+.nav-list-link {
+    text-decoration: none;
+    color: white;
 }
