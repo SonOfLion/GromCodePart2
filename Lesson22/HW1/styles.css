@@ -31,6 +31,8 @@ button {
 .nav-list-item {
     background-color: #808080;
     margin-bottom: 0.5em;
+    height: 2em;
+    padding: 0.5em;
 }
 
 .nav-list-link {
