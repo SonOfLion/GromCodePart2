@@ -15,9 +15,10 @@ html {
 }
 
 button {
-    align-content: center;
     visibility: hidden;
     border: none;
+    margin: none;
+    padding: none;
     cursor: pointer;
     background-color: none;
     outline: none;
@@ -39,6 +40,8 @@ button {
     button {
         visibility: visible;
         font-size: 2em;
+        margin: none;
+        padding: none;
         border: none;
         background-color: none;
         outline: none;
