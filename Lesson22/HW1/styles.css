@@ -10,7 +10,7 @@ html {
     display: flex;
     height: 3em;
     padding: 0 1em;
-    background-color: #eeeeee;
+    background-color: #eee;
     outline: none;
     border: none;
 }
@@ -21,6 +21,7 @@ button {
     border: none;
     cursor: pointer;
     outline: none;
+    background-color: #eee;
 }
 
 .nav-list-item {
@@ -38,6 +39,7 @@ button {
         border: none;
         outline: none;
         cursor: pointer;
+        background-color: #eee;
     }
 }
 
