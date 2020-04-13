@@ -12,9 +12,15 @@ html {
     padding: 0 1em;
     background-color: #eeeeee;
 }
+.nav-list-item{
+    visibility: hidden;
+}
+.nav-list-link {
+    visibility: hidden;
+}
 
 button {
-    display: flex;
+    visibility:hidden;
     font-size: 2em;
     border: none;
     margin: 0;
@@ -22,30 +28,40 @@ button {
     cursor: pointer;
 }
 
-.fas fa-bars {
-    align-items: center;
-    justify-content: center;
+@media screen and (max-width:599px) {
+    button {
+        visibility:visible;
+        font-size: 2em;
+        border: none;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
 }
 
-.nav-list {
-    list-style-type: none;
-    padding: 0;
-    width: 20%;
-    padding: 0.5em;
-}
+@media screen and (min-width:600px) {
 
-.nav-list-item {
-    background-color: #808080;
-    margin-bottom: 0.5em;
-    height: 2em;
-    padding: 0.5em;
-    color: white;
-    text-overflow: ellipsis;
-    white-space: pre;
-    overflow: hidden;
-}
-
-.nav-list-link {
-    text-decoration: none;
-    color: white;
+    .nav-list {
+        visibility: visible;
+        list-style-type: none;
+        padding: 0;
+        width: 20%;
+        padding: 0.5em;
+    }
+    .nav-list-item {
+        visibility: visible;
+        background-color: #808080;
+        margin-bottom: 0.5em;
+        height: 2em;
+        padding: 0.5em;
+        color: white;
+        text-overflow: ellipsis;
+        white-space: pre;
+        overflow: hidden;
+    }
+    .nav-list-link {
+        visibility: visible;
+        text-decoration: none;
+        color: white;
+    }
 }
