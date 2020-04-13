@@ -7,18 +7,17 @@ html {
 }
 
 .header {
-    width: 100%;
     display: flex;
-    align-items: center;
+    align-content: center;
     height: 3em;
     padding: 0 1em;
     background-color: #eeeeee;
 }
 
 button {
+    align-content: center;
     visibility: hidden;
     border: none;
-    padding: 0;
     cursor: pointer;
     background-color: none;
     outline: none;
@@ -43,7 +42,6 @@ button {
         border: none;
         background-color: none;
         outline: none;
-        padding: 0;
         cursor: pointer;
     }
 }
