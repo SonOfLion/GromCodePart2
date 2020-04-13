@@ -9,18 +9,20 @@ html {
 .header {
     display: flex;
     height: 3em;
-    padding: 0 1em;
+    padding: 0 2em;
     background-color: #eeeeee;
 }
-.nav-list-item{
+
+.nav-list-item {
     visibility: hidden;
 }
+
 .nav-list-link {
     visibility: hidden;
 }
 
 button {
-    visibility:hidden;
+    visibility: hidden;
     font-size: 2em;
     border: none;
     margin: 0;
@@ -30,7 +32,7 @@ button {
 
 @media screen and (max-width:599px) {
     button {
-        visibility:visible;
+        visibility: visible;
         font-size: 2em;
         border: none;
         margin: 0;
@@ -40,7 +42,6 @@ button {
 }
 
 @media screen and (min-width:600px) {
-
     .nav-list {
         visibility: visible;
         list-style-type: none;
