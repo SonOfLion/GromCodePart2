@@ -8,7 +8,7 @@ html {
 
 .header {
     display: flex;
-    align-content: center;
+    justify-content: center;
     height: 3em;
     padding: 0 1em;
     background-color: #eeeeee;
@@ -18,8 +18,8 @@ button {
     visibility: hidden;
     font-size: 2em;
     border: none;
+    padding: 0;
     cursor: pointer;
-    background-color: none;
     outline: none;
 }
 
@@ -35,8 +35,8 @@ button {
     button {
         visibility: visible;
         font-size: 2em;
+        padding: 0;
         border: none;
-        background-color: none;
         outline: none;
         cursor: pointer;
     }
