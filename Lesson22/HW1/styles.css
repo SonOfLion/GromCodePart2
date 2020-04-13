@@ -7,11 +7,16 @@ html {
 }
 
 .header {
+    width: 100%;
     display: flex;
     align-items: center;
     height: 3em;
     padding: 0 1em;
     background-color: #eeeeee;
+}
+
+.fas fa-bars {
+    font-size: 2em;
 }
 
 .nav-list-item {
@@ -24,7 +29,6 @@ html {
 
 button {
     visibility: hidden;
-    font-size: 2em;
     border: none;
     margin: 0;
     padding: 0;
