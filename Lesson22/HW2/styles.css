@@ -105,3 +105,14 @@ img {
     font-size: 5vw;
     align-items: center;
 }
+
+@media screen and (max-width:600px) {
+    .navigation {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .news {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
