@@ -8,8 +8,9 @@ html {
 
 .header {
     display: flex;
+    align-items: center;
     height: 3em;
-    padding: 0 2em;
+    padding: 0 1em;
     background-color: #eeeeee;
 }
 
