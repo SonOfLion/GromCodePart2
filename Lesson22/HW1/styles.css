@@ -8,10 +8,11 @@ html {
 
 .header {
     display: flex;
-    justify-content: center;
     height: 3em;
     padding: 0 1em;
     background-color: #eeeeee;
+    outline: none;
+    border: none;
 }
 
 button {
