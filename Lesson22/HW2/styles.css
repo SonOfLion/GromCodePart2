@@ -110,7 +110,7 @@ img {
 @media screen and (max-width:600px) {
     .navigation {
         width: 100%;
-        padding: 0;
+        padding-bottom: 0;
     }
     .news {
         width: 100%;
