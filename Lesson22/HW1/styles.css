@@ -27,6 +27,13 @@ button {
 
 .fas fa-bars {
     font-size: 2em;
+    font-size: 2em;
+    margin: none;
+    padding: none;
+    border: none;
+    background-color: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .nav-list-item {
