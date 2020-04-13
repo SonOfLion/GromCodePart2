@@ -19,7 +19,6 @@ button {
     visibility: hidden;
     font-size: 2em;
     border: none;
-    padding: 0;
     cursor: pointer;
     outline: none;
 }
@@ -36,7 +35,6 @@ button {
     button {
         visibility: visible;
         font-size: 2em;
-        padding: 0;
         border: none;
         outline: none;
         cursor: pointer;
