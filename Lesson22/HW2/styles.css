@@ -115,4 +115,10 @@ img {
         width: 100%;
         flex-wrap: wrap;
     }
+    img {
+        width: 100vw;
+    }
+    .section {
+        width: 100%;
+    }
 }
