@@ -41,7 +41,8 @@ button {
         visibility: visible;
         font-size: 2em;
         border: none;
-        margin: 0;
+        background-color: none;
+        outline: none;
         padding: 0;
         cursor: pointer;
     }
