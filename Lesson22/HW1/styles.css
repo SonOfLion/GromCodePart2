@@ -16,6 +16,7 @@ html {
 
 button {
     visibility: hidden;
+    font-size: 2em;
     border: none;
     margin: none;
     padding: none;
