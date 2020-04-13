@@ -18,8 +18,8 @@ button {
     visibility: hidden;
     font-size: 2em;
     border: none;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     cursor: pointer;
     background-color: none;
     outline: none;
