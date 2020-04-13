@@ -116,7 +116,7 @@ img {
         flex-wrap: wrap;
     }
     img {
-        width: 100vw;
+        width: 100%;
     }
     .section {
         width: 100%;
