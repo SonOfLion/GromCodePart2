@@ -111,7 +111,6 @@ img {
     .navigation {
         width: 100%;
         flex-wrap: wrap;
-        padding-bottom: 0;
     }
     .news {
         width: 100%;
