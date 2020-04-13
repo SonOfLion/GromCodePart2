@@ -18,22 +18,10 @@ button {
     visibility: hidden;
     font-size: 2em;
     border: none;
-    margin: 0;
     padding: 0;
     cursor: pointer;
     background-color: none;
     outline: none;
-}
-
-.fas fa-bars {
-    font-size: 2em;
-    font-size: 2em;
-    margin: none;
-    padding: none;
-    border: none;
-    background-color: none;
-    outline: none;
-    cursor: pointer;
 }
 
 .nav-list-item {
@@ -48,7 +36,6 @@ button {
     button {
         visibility: visible;
         font-size: 2em;
-        margin: none;
         padding: none;
         border: none;
         background-color: none;
