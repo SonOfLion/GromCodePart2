@@ -142,5 +142,20 @@ img {
     .section {
         width: 80%;
     }
-    .news {}
+}
+
+@media screen and (min-width:900px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 60%;
+    }
+    .news {
+        width: 20%;
+    }
 }
