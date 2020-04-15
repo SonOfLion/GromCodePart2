@@ -28,12 +28,12 @@
 
 @media screen and (orientation:landscape) {
     .container {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
 @media screen and (orientation:portrait) {
     .container {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
