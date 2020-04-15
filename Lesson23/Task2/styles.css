@@ -4,10 +4,10 @@
 
 .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  orientation: landscape;
 }
 
 .square {
@@ -29,37 +29,6 @@
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 600px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 600px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 900px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    display: flex;
-    flex-direction: row;
   }
 }
 
