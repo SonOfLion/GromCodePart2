@@ -16,7 +16,7 @@
     height: 100px;
     margin: 8px;
     background-color: #ff7f50;
-    @include for-extra-small {
+    @include for-small {
         background-color: #8a2be2;
     }
     @include for-medium-up {
@@ -29,6 +29,14 @@
 
 .container {
     @include for-extra-small {
+        display: flex;
+        flex-direction: row;
+    }
+    @include for-small {
+        display: flex;
+        flex-direction: row;
+    }
+    @include for-small {
         display: flex;
         flex-direction: row;
     }

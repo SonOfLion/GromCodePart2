@@ -32,6 +32,18 @@
   }
 }
 
+@media screen and (min-width: 400px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
 @media screen and (min-width: 600px) {
   .container {
     display: flex;
