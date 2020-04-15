@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.container {
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +28,22 @@
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    display: flex;
   }
 }
 
