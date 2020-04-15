@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  orientation: landscape;
 }
 
 .square {
@@ -29,6 +28,17 @@
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: row;
   }
 }
 
