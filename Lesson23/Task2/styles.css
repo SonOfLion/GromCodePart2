@@ -31,20 +31,4 @@
   }
 }
 
-@media screen and (min-width: 600px) {
-  .container {
-    display: flex;
-  }
-}
-@media screen and (min-width: 900px) {
-  .container {
-    display: flex;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    display: flex;
-  }
-}
-
 /*# sourceMappingURL=styles.css.map */

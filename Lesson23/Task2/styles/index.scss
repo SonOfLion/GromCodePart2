@@ -25,15 +25,3 @@
         background-color: #c47;
     }
 }
-
-.container {
-    @include for-extra-small {
-        display: flex;
-    }
-    @include for-medium-up {
-        display: flex;
-    }
-    @include for-large-up {
-        display: flex;
-    }
-}
