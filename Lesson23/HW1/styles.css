@@ -37,8 +37,8 @@
 .submenu {
   position: absolute;
   margin: 0;
-  display: none;
   margin-top: 104px;
+  display: none;
   list-style-type: none;
   background-color: #ff7f50;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
@@ -53,8 +53,8 @@
   color: black;
 }
 
-.menu__item_active:hover {
-  display: border;
+.menu__item_active:hover .submenu {
+  display: block;
 }
 
 * {
