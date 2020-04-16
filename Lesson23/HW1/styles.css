@@ -3,6 +3,7 @@
   align-items: center;
   background-color: #006400;
   height: 3em;
+  width: 100%;
 }
 
 .menu {
@@ -16,12 +17,12 @@
 .menu__item {
   display: flex;
   text-transform: uppercase;
-  padding: 8px;
   color: white;
   height: 3em;
 }
 
 .menu__item-text {
+  padding: 8px;
   margin: auto;
 }
 
