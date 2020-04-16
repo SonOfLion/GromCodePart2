@@ -5,43 +5,32 @@
 }
 
 .menu {
-  padding: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-  list-style-type: none;
-  text-transform: uppercase;
-  height: 100%;
-  color: white;
   margin-left: 3em;
+  padding: 0;
+  text-transform: uppercase;
+  list-style-type: none;
+  color: white;
 }
 
 .menu__item-text {
   padding: 8px;
-  line-height: 32px;
 }
 
 .menu__item-text:hover {
   background-color: #9acd32;
 }
 
-.menu__item:nth-of-type(2) {
+.submenu {
+  list-style-type: none;
+}
+
+.submenu__item {
+  padding: 8px;
+}
+
+.menu__item_active {
   color: yellow;
-}
-
-.submenu {
-  display: none;
-}
-
-.submenu {
-  padding: 0;
-  margin: 0;
-  background-color: #ff7f50;
-}
-
-.menu__item-text:hover {
-  display: block;
 }
 
 * {
