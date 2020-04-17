@@ -1,0 +1,56 @@
+@import 'layout.scss';
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation {
+    background-color: #ff7f50;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+}
+
+.product-list {
+    background-color: #006400;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+}
+
+.news {
+    background-color: #0ff;
+    min-height: 200px;
+    display: flex;
+}
+
+.container-item-text {
+    margin: auto;
+    text-transform: lowercase;
+    background-color: #faebd7;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.container {
+    @include for-small-up {
+        display: block;
+    }
+}
+
+.container-item {
+    @include for-medium-up {
+        display: flex;
+        flex: 2;
+    }
+}
+
+.container {
+    @include for-large-up {
+        display: flex;
+        flex: 3;
+    }
+}
